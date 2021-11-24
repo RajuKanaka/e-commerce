@@ -6,6 +6,7 @@ import styles from "./styles";
 const Products = ({ products, onAddToCart }) => {
   const classes = styles();
   return (
+    //using material-ui grid
     <main className={classes.content}>
       <div className={classes.toolbar} />
       <Grid container justifyContent="center" spacing={4}>
