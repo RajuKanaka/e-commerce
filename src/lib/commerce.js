@@ -1,5 +1,5 @@
 import Commerce from "@chec/commerce.js";
 export const commerce = new Commerce(
-  process.env.REACT_APP_CHEC_PUBLIC_KEY,
+  pk_35166b87e15dd669577fa1dafa223f454624cf8b1664e,
   true
 );
